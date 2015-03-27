@@ -1,0 +1,380 @@
+/* 
+
+notes
+
+font-family: OpenSans-Light;
+OpenSans
+OpenSans-Bold
+*/
+
+
+@media screen and (max-width: 768px) {
+	.columnsall {
+		background: url("../img/workstationx768.jpg") no-repeat center center fixed;
+		-webkit-background-size: cover;
+	  	-moz-background-size: cover;
+	  	-o-background-size: cover;
+	  	background-size: cover;
+	  	width: 100%;
+}
+}
+
+@font-face {
+    font-family: OpenSans;
+    src: url(../fonts/OpenSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: OpenSans-Light;
+    src: url(../fonts/OpenSans-Light.ttf);
+}
+
+@font-face {
+    font-family: OpenSans-Bold;
+    src: url(../fonts/OpenSans-Bold.ttf);
+}
+
+
+a:link {
+	text-decoration: none;
+	color: #595959;
+
+}
+
+a:visited {
+    text-decoration: none;
+    color: #595959;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #000;
+}
+
+
+
+/*HEADER*/
+
+.headimg {
+	display: inline-block;
+	text-align: left;
+	font-family: OpenSans, sans-serif;
+	text-decoration: none;
+	font-size: 24px;
+	padding: 10px 50px;
+	color: #4A4A4A;
+}
+
+.headimg a {
+	 	font-family: OpenSans-Bold, sans-serif;
+	 	transition: 1s;
+	 	text-decoration: none;
+}
+
+.headimg a:hover {
+ 	color: #0534AA;
+ 	text-decoration: none;
+
+ }
+
+
+.header {
+	float: right;
+}
+
+.header ul {
+	list-style: none;
+	margin-right: 30px;
+	text-decoration: none;
+}
+
+.header li {
+ 	display: inline-block;
+	font-size: 18px;
+	color: #4A4A4A;
+	line-height: 29px;
+	padding-right: 15px;
+	margin-right: 20px;
+ 	margin-top: 50px;
+ 	text-decoration: none;
+}
+
+ .header a {
+ 	font-family: OpenSans-Light, sans-serif;
+	font-size: 16px;
+	color: #4A4A4A;
+	line-height: 29px;
+	display: inline-block;
+	padding-left: 2px;
+	transition: .5s;
+	text-decoration: none;
+ }
+
+ .header a:hover {
+ 	color: #0534AA;
+ 	text-decoration: none;
+ }
+
+ .maintext {
+ 	font-family: OpenSans-Light, sans-serif;
+	font-size: 30px;
+	color: #4A4A4A;
+	line-height: 45px;
+	letter-spacing: 0.1px;
+	padding-top: 190px;
+	padding-bottom: 275px;
+	padding-left: 60px;
+ }
+
+ .maintext a {
+ 	font-family: OpenSans-Bold, sans-serif;
+ 	color: #0534AA;
+ }
+
+
+
+/* LIST STYLES */
+
+.columns li {
+	list-style-type: none;
+	line-height: 2.1em;
+	font-family: OpenSans-Light, sans-serif;
+	font-size: 16px;
+}
+
+
+.columnsall {
+	background: url("../img/workstation1.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+  	width: 100%;
+}
+
+.column-right {
+	float: right;
+	width: 47%;
+}
+
+.column-left {
+	padding-top: 20px;
+	padding-bottom: 50px;
+
+}
+
+
+.listname {
+	font-family: OpenSans-Light, sans-serif;
+    font-size: 30px;
+    line-height: 30px;
+    color: #C9C4C4;
+}
+
+
+.columns a {
+	color: #C9C4C4;
+	transition: 0.5s;
+	text-decoration: none;
+}
+
+.columns a:hover {
+    text-decoration: none;
+    color: #FFF;
+    text-decoration: none;
+
+}
+
+
+/*SUBMIT*/
+
+
+.buttoncolumn {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	padding-bottom: 60px;
+}
+
+.buttoncolumn a {
+	font-family: OpenSans-Light, sans-serif;
+	color: #fff;
+	font-size: 22px;
+	transition: .2s;
+	text-decoration: none;
+}
+
+.ghost-button {
+	border: 2px solid #FFF;
+	padding: 12px 60px;
+	border-radius: 5px;
+}
+
+.buttoncolumn a:hover {
+	color: #4A4A4A;
+	background-color: #fff; 
+	text-decoration: none;
+}
+
+
+/*MAILCHIMP*/
+
+
+
+.mc_embed_signup {
+	background:#F5F5F5; 
+	clear:left; 
+	font-size: 20px;
+	font-family: OpenSans-Light, sans-serif; 
+	padding-top: 40px;
+	padding-bottom: 10px;
+	text-align: center;
+	line-height: 1.5;
+	color: #595959;
+}
+
+
+.mc_embed_signup a {
+	border-bottom: 1px solid #000;
+	text-decoration: none;
+
+}
+
+
+.email {
+	float: left;
+	margin: 25px 20px 15px 310px;
+	font-family: OpenSans;
+	font-size: 16px;
+	padding: 20px 100px;
+	text-align: left;
+	border: 1px solid;
+	border-color: #AFAFAF;
+	border-radius: 5px;
+
+}
+
+
+input.button {
+	display: block;
+	background-color: #292929;
+	padding: 18px 80px;
+	transition: .3s;
+	color: #fff;
+	margin-top: 24px; 
+	border: 1px solid;
+	border-radius: 5px;
+
+}
+
+input.button:hover {
+	background-color: #000;
+	color: #fff;
+}
+
+.mc_embed_signup hr {
+	margin-top: 60px;
+	margin-bottom: 10px;
+
+}
+
+.mc_embed_signup p {
+	padding-top: 20px;
+	font-size: 18px;
+	line-height: 1.7;
+
+}
+
+
+/*SOCIAL*/
+
+
+.social {
+	text-align: center;
+	background-color: #EDEDED;
+	margin-top: 0px; 
+}
+
+.social img {
+	display: inline;
+	max-width: 200px;
+	margin-right: 1%;
+	padding: 20px; 
+	padding-bottom: 40px;
+	padding-top: 50px;
+	
+}
+
+.social li {
+	display: inline;
+
+}
+
+/*TWITTER STYLING*/
+
+
+.twitter {
+	text-align: center;
+	padding-top: 60px; 
+	margin-bottom: 0;
+
+}
+
+.twitter img {
+	display: inline-block;
+}
+
+.twitter p {
+	font-family: OpenSans-Light, sans-serif;
+	letter-spacing: 1px;
+	font-size: 30px;
+	color: #666666;
+	line-height: 42px;
+	max-width: 500px;
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+/*CONTACTS*/
+
+.contacts {
+
+font-family: OpenSans, sans-serif;
+letter-spacing: 1px;
+font-size: 12px;
+color: #FFFFFF;
+line-height: 24px;
+background: #C2C2C2;
+padding-top: 1px;
+text-align: center;
+
+}
+
+.contacts p {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.contacts a {
+	color: #FFFFFF;
+	transition: .5s;
+}
+
+.contacts a:hover {
+	color: #9C9C9C;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
