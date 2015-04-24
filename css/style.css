@@ -1,4 +1,9 @@
 
+h1 {
+	font-size: 30px;
+	font-weight: normal;
+}
+
 @font-face {
     font-family: OpenSans;
     src: url(../fonts/OpenSans-Regular.ttf);
@@ -90,6 +95,22 @@ a:hover {
 	text-decoration: none;
  }
 
+ @media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) { 
+		.header a {
+			font-size: 22px;
+	}
+}
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) { 
+		.header a {
+			font-size: 22px;
+	}
+}
+
  .header a:hover {
  	color: #0534AA;
  	text-decoration: none;
@@ -105,6 +126,28 @@ a:hover {
 	padding-bottom: 275px;
 	padding-left: 60px;
  }
+
+ @media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) { 
+		.maintext {
+			font-size: 50px;
+			line-height: 68px;
+			letter-spacing: 0.3px;
+	
+	}
+}
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) { 
+		.maintext {
+			font-size: 50px;
+			line-height: 68px;
+			letter-spacing: 0.3px;
+	
+	}
+}
 
  .maintext a {
  	font-family: OpenSans-Bold, sans-serif;
@@ -124,7 +167,7 @@ a:hover {
 
 
 .columnsall {
-	background: url("../img/workstation1.jpg") no-repeat center center fixed;
+	background: url("../img/workstation_light.jpg") no-repeat center center fixed;
 	-webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
@@ -213,7 +256,7 @@ and (max-device-width : 1024px)  {
 
 .column-left {
 	padding-top: 20px;
-	padding-bottom: 50px;
+	padding-bottom: 20px;
 
 }
 
